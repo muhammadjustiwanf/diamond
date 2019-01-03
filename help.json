@@ -1,0 +1,18 @@
+[
+    {
+        "name": "r!list",
+        "value": "Displays a list of your current reminders"
+    },
+    {
+        "name": "r!stop [all|index]",
+        "value": "Stops either all current reminders, or the one whose index number matches the one you specify"
+    },
+    {
+        "name": "r!set \"<any text you want>\"  every n [seconds|minutes|hours|days]",
+        "value": "Start a new reminder every *n* seconds, minutes, hours or days"
+    },
+    {
+        "name": "r!help",
+        "value": "Display the command reference"
+    }
+]

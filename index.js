@@ -1,14 +1,20 @@
 
 const config = require("./config.json");
-const discord = require("discord.js");
-const client = new discord.Client();
+const utils = require("./utils.js");
 
-client.on("ready", () => {
+var discord = require("./discord.js");
+
+discord.client.on("ready", () => {
+
     console.log("I am ready!");
+    utils.bootstrap();
+
 })
 
-client.on("message", message => {
+discord.client.on("message", message => {
+
+    utils.parseCommand(message);
 
 });
 
-client.login(config.botToken);
+discord.client.login(config.botToken);
