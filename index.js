@@ -17,4 +17,4 @@ discord.client.on("message", message => {
 
 });
 
-discord.client.login(config.botToken);
+discord.client.login("NjIwMjMxMjI4OTI2MTk3NzYw.XXUFyg.tTQVh-uK0gDWUwVoaBucyB2Bmt0");
